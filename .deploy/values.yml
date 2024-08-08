@@ -6,18 +6,18 @@ elCicdDefs:
   PORT: 8080
   CGROUP: cgroup
   
-elCicdDefs-dev:
+elCicdDefs-DEV:
   CPU_UTILIZATION: 50
   PORT: 8081
 
-elCicdDefs-qa:
+elCicdDefs-QA:
   MAX_REPLICAS: 4
   REPLICAS: 3
   
-elCicdDefs-stg:
+elCicdDefs-STG:
   CPU_UTILIZATION: 50
 
-elCicdDefs-prod:
+elCicdDefs-PROD:
   MAX_REPLICAS: 5
 
 elCicdTemplates:
