@@ -21,9 +21,7 @@ elCicdDefs-PROD:
   MAX_REPLICAS: 5
 
 elCicdTemplates:
-- templateNames:
-  - deployment
-  - service
+- templateNames: [deployment, service]
   replicas: $<REPLICAS>
   port: $<PORT>
   env:
