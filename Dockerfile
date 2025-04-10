@@ -8,6 +8,6 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-USER 1001
+USER 1000
 
 CMD [ "python", "./app.py" ]
